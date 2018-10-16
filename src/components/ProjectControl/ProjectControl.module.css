@@ -1,0 +1,19 @@
+.ProjectControl {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5px;
+}
+.control {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.control label{
+    width: 30%;
+    float: left;
+}
+.control input{
+    height: 40px;
+    width: 60%;
+}
