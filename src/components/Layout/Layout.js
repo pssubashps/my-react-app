@@ -1,15 +1,14 @@
 import React from 'react';
 
 import Aux from '../../hoc/Aux';
-import Toolbar from '../Toolbar/Toolbar';
+import Header from '../Header/Header';
+import Skillset from '../Skillset/Skillset';
 import classes from './Layout.module.css';
 
 const layout = (props) => (
     <Aux>
-        <Toolbar/>
-        <main className={classes.Content}>
-            {props.children}
-        </main>
+        <Header/>
+        <Skillset/>
     </Aux>
 );
 

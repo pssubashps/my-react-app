@@ -1,0 +1,12 @@
+.Container {
+    width: 100%;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+
+.Skill {
+    text-align: right;
+    padding: 10px;
+    color: white;
+    
+  }
